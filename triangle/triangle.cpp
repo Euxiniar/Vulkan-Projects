@@ -1,6 +1,15 @@
-#include <vulkan/vulkan.h>
+#include "triangle.h"
 
-int main()
-{
-	return 0;
+#if defined(_WIN32)
+
+LRESULT CALLBACK WndProc(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
+{	
 }
+
+int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR pCmdLine, int nCmdShow)
+{
+}
+
+#elif defined(__linux__)
+
+#endif
