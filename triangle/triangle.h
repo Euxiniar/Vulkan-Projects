@@ -4,9 +4,10 @@
 
 #include "vulkanProjectBase.h"
 
-class VulkanProject : public vulkanProjectBase
+class VulkanProject : public VulkanProjectBase
 {
 public:
+	VulkanProject();
 
 private:
 };

@@ -1,7 +1,8 @@
 #pragma once
 
-class vulkanProjectBase
+class VulkanProjectBase
 {
 public:
+	VulkanProjectBase();
 private:
 };
