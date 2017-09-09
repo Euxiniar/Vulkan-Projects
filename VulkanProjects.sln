@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Base", "Base", "{688BF4CA-1
 	ProjectSection(SolutionItems) = preProject
 		base\vulkanProjectBase.cpp = base\vulkanProjectBase.cpp
 		base\vulkanProjectBase.h = base\vulkanProjectBase.h
+		base\window.cpp = base\window.cpp
+		base\window.h = base\window.h
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Various files", "Various files", "{7A94F726-485E-484E-8B7D-FAAF39A28FC1}"

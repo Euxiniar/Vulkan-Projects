@@ -26,7 +26,7 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR pCmdLin
 	}
 
 	vulkanProject = std::make_shared<VulkanProject>(VulkanProject());
-
+	vulkanProject->window.setupWindow(hInstance, WndProc, vulkanProject->name);
 	return 0;
 }
 

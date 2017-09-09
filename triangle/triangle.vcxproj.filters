@@ -21,12 +21,18 @@
     <ClCompile Include="..\base\vulkanProjectBase.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\base\window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="triangle.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\base\vulkanProjectBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\base\window.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

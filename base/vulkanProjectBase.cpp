@@ -3,14 +3,13 @@
 std::vector<const char*> VulkanProjectBase::args;
 
 
-
-VulkanProjectBase::VulkanProjectBase()
+VulkanProjectBase::VulkanProjectBase() : window(*this)
 {
 	for (size_t i = 0; i < args.size(); i++)
 	{
 		if (args[i] == std::string("-hello")) {
 			std::string msg("Hello Guy");
-			MessageBox(NULL, msg.c_str(), "Fatal error", MB_OK | MB_ICONINFORMATION);
+			MessageBox(NULL, msg.c_str(), "Hello !", MB_OK | MB_ICONINFORMATION);
 		}
 	}
 }
